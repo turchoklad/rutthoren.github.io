@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2306,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!-- Tala om att det är html-dokument -->\n<!DOCTYPE html>\n\n<!-- Alla element ska finnas inom html-taggen -->\n<html>\n<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->\n<head>\n    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <!-- Koppla in Bootstrap css -->\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->\n    <link rel=\"stylesheet\" type =\"text/css\" href=\"css/style.css\">\n\n    <!-- Koppla in och JQuery Bootstrap javascript -->\n    <script type=\"text/javascript\" src=\"js/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"js/bootstrap.min.js\"></script>\n\n    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->\n    <script type=\"text/javascript\" src=\"js/funktion.js\"></script>\n    \n    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->\n    <title>Min titel</title>\n</head>\n\n<!-- I body finns allt innehåll på hemsidan -->\n<body>\n\n    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->\n    <header>\n            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->\n            <nav class=\"nav navbar-inverse navbar-static-top\">\n                <div class=\"container\">\n                    <a class=\"navbar-brand\" href=\"index.html\">Start</a>\n                    <ul class=\"nav navbar-nav\">\n                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->\n                        <li><a href=\"Djur.html\">Djur</a></li>\n                        <li><a href=\"Film7Bok.html\">Film/Bok</a></li>\n                        <li><a href=\"Spel.html\">Spel</a></li>\n                    </ul>\n                </div>\n            </nav>\n        </header>\n\n    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->\n    <main>\n    <h2>Mina<h2>\n    <ol>\n    <li>\n    Giga\n    </li>\n    <li>\n    Båtspelet\n    </li>\n    </ol>\n    <h2>andras</h2>\n    <ol>\n    <li>\n    sims\n    </li>\n    <li>\n    trean\n    </li>\n    <li>\n    Fyran\n    </li>\n    </ol>\n          <iframe allowtransparency=\"true\" width=\"485\" height=\"402\" src=\"https://scratch.mit.edu/projects/embed/165832818/?autostart=false\" frameborder=\"0\" allowfullscreen></iframe>\n          \n         <iframe allowtransparency=\"true\" width=\"485\" height=\"402\" src=\"//scratch.mit.edu/projects/embed/165832594/?autostart=false\" frameborder=\"0\" allowfullscreen></iframe>\n     \n    \n    </main>\n</body>\n</html>",
+			"file": "Spel.html",
+			"file_size": 2428,
+			"file_write_time": 131420738707244342,
+			"settings":
+			{
+				"buffer_size": 2783,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Film7Bok.html",
+			"settings":
+			{
+				"buffer_size": 2509,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Djur.html",
+			"settings":
+			{
+				"buffer_size": 2385,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Deltagare/Desktop/hemsida",
+		"/C/Users/Deltagare/Desktop/hemsida/css"
+	],
+	"file_history":
+	[
+		"/C/Users/Deltagare/Desktop/hemsida/menyval1.html",
+		"/C/Users/Deltagare/Desktop/hemsida/mallar/blank.html",
+		"/C/Users/Deltagare/Desktop/hemsida/mallar/meny-topp.html",
+		"/C/Users/Deltagare/Desktop/hemsida/index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2278,
+								2278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Spel.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2569,
+								2569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Film7Bok.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1940,
+								2230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1011.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Djur.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 230.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projekt.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
